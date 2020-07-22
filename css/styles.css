@@ -118,6 +118,9 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-primary-5);
 }
+.above {
+  padding-bottom: 0.5rem;
+}
 .resume{
   width: 100%;
   /* text-align: center; */

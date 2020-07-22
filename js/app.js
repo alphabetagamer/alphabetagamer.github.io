@@ -71,7 +71,7 @@ new TypeIt("#hero", {
     strings:["a Coder","a Reader","a Gamer","Lokin"],
     breakLines: false,	
     startDelete: true,
-    nextStringDelay: [3000,3000,3000,3000],
+    nextStringDelay: [2000,2000,2000,2000],
     loopDelay: 60000
   })
     .go();
