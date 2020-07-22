@@ -328,7 +328,7 @@ Sidebar
   color: var(--clr-grey-6);
   -webkit-transition: var(--transition);
   transition: var(--transition);
-  padding-right: 3.5em;
+  padding-right: 2.5em;
 }
 .social-icon:hover {
   color: var(--clr-primary-3);
@@ -358,9 +358,9 @@ Hero
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
-.hero-img {
+/* .hero-img {
   display: none;
-}
+} */
 .hero {
   background: var(--clr-primary-2);
 }
