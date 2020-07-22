@@ -71,7 +71,7 @@ a {
 }
 img:not(.nav-logo) {
   width: 100%;
-  display: block;
+  /* display: block; */
 }
 
 .nav-logo {
@@ -662,7 +662,8 @@ Timeline
   border-top-right-radius: 0;
 }
 .timeline-item:last-child {
-  border-bottom-left-radius: 0;
+  border-right: 2px dashed var(--clr-primary-5);
+  border-bottom-right-radius: 0;
 }
 .number {
   position: absolute;

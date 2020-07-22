@@ -80,34 +80,34 @@ new TypeIt("#hero", {
   }
 
   //Contact Form Validation
-  function validate(){
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
-    var error_message = document.getElementById("error_message");
+  // function validate(){
+  //   var name = document.getElementById("name").value;
+  //   var email = document.getElementById("email").value;
+  //   var message = document.getElementById("message").value;
+  //   var error_message = document.getElementById("error_message");
     
-    error_message.style.padding = "10px";
+  //   error_message.style.padding = "10px";
     
-    var text;
-    if(name.length < 3){
-      text = "<p class=\"warning\">Please Enter valid Name</p>" ;
-      error_message.innerHTML = text;
-      return false;
-    }
+  //   var text;
+  //   if(name.length < 3){
+  //     text = "<p class=\"warning\">Please Enter valid Name</p>" ;
+  //     error_message.innerHTML = text;
+  //     return false;
+  //   }
     
-    if(email.indexOf("@") == -1 || email.length < 6){
-      text = "<p class=\"warning\">Please Enter valid Email</p>";
-      error_message.innerHTML = text;
-      return false;
-    }
+  //   if(email.indexOf("@") == -1 || email.length < 6){
+  //     text = "<p class=\"warning\">Please Enter valid Email</p>";
+  //     error_message.innerHTML = text;
+  //     return false;
+  //   }
 
-    if(message.length <= 10){
-      text = "<p class=\"warning\">Please Enter Atleast 10 characters</p>";
-      error_message.innerHTML = text;
-      return false;
-    }
-    alert("Form Submitted Successfully!");
-    return true;
-  }
+  //   if(message.length <= 10){
+  //     text = "<p class=\"warning\">Please Enter Atleast 10 characters</p>";
+  //     error_message.innerHTML = text;
+  //     return false;
+  //   }
+  //   alert("Form Submitted Successfully!");
+  //   return true;
+  // }
 
   
