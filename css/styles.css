@@ -190,6 +190,7 @@ p {
 .underline {
   width: 5rem;
   height: 0.25rem;
+  margin-top:0.4rem;
   margin-bottom: 1.25rem;
   background: var(--clr-primary-5);
   margin-left: auto;
@@ -470,7 +471,7 @@ Services
 }
 .service-icon {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .service .underline {
   width: 1.5rem;
@@ -512,7 +513,7 @@ Experience
   border-style: solid;
   border-color: white;
   border-radius: 5px;
-  padding: 0.5rem;
+  padding: 1.5rem;
   margin-bottom: 1rem;
 }
 .title_exp{
@@ -646,6 +647,7 @@ Timeline
   margin: 0;
   padding: 4rem 2rem;
   position: relative;
+  text-align: center;
 }
 .timeline p {
   margin-bottom: 0;
